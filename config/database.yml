@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql # postgresql database server
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 50000
+  username: mohiuddin
+  # password: nhyxp954648
+
+development:
+  <<: *default
+  database: AirPikachu_2023_development_07
+
+test:
+  <<: *default
+  database: AirPikachu_2023_test_07
+
+production:
+  <<: *default
+  database: AirPikachu_2023_production_07
