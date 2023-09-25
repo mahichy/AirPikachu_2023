@@ -21,6 +21,7 @@ gem "jbuilder"
 
 gem "bootstrap"
 gem "sassc-rails"
+gem "devise"
 
 
 
