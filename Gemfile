@@ -23,6 +23,9 @@ gem "bootstrap"
 gem "sassc-rails"
 gem "devise"
 
+gem 'omniauth', '~> 1.6'
+gem 'omniauth-facebook', '~> 4.0'
+
 
 
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
